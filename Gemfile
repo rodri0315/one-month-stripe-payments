@@ -1,7 +1,7 @@
 source 'https://rubygems.org'
 
 #Require a specific ruby version
-ruby '2.2.1'
+ruby "2.2.1"
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '4.2.3'
@@ -9,7 +9,7 @@ gem 'rails', '4.2.3'
 gem 'sqlite3', group: [:development, :test]
 
 #Use postgress as the database in production
-#gem	'pg', group: :production
+gem	'pg', group: :production
 
 #Add 12 factor for Heroku
 gem 'rails_12factor', group: :production
