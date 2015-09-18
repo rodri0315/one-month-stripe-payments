@@ -7,8 +7,7 @@ class CreateProducts < ActiveRecord::Migration
 	    t.text :description
 	    t.string :sku
 	    t.decimal :price
-
-      t.timestamps null: false
+	    t.timestamps
     end
   end
 end
