@@ -9,7 +9,7 @@ Rails.application.routes.draw do
   resources :charges
   
   #route for showing products
-  resources :products, only: [:index]
+  resources :products, only: [:index, :show]
 
   #route for showing purchases
   resources :purchases, only: [:show]
